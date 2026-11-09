@@ -3,7 +3,6 @@ import gettext
 appname = "hello"
 localedir = "locales"
 
-translations = gettext.translation(appname, localedir, fallback=False)
-translations.install()
+gettext.install(appname, localedir)
 
 print(_("Hello World"))
