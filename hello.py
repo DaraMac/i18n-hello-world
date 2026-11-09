@@ -1,11 +1,12 @@
 import gettext
 
-user_locale = input("Locale: ").strip()
+# user_locale = input("Locale: ").strip()
 
 appname = "hello"
 localedir = "./locales"
 
-translations = gettext.translation(appname, localedir, fallback=False, languages=[user_locale])
+translations = gettext.translation(appname, localedir, fallback=False)
+# translations = gettext.translation(appname, localedir, fallback=False, languages=[user_locale])
 
 translations.install()
 
