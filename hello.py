@@ -1,8 +1,5 @@
 import gettext
 
-appname = "hello"
-localedir = "locales"
-
-gettext.install(appname, localedir)
+gettext.install(domain="hello", localedir="locales")
 
 print(_("Hello World"))
