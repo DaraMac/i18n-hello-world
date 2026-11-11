@@ -17,4 +17,4 @@ classifiers = [
 "Source Code" = "https://github.com/DaraMac/translation-test"
 
 [project.scripts]
-hello = "pymodcheck.pymodcheck:cli"
+hello = "hello.hello:hello"
