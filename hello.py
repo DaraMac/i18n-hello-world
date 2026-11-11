@@ -1,5 +1,11 @@
+#!/usr/bin/env python3
+
 import gettext
 
 gettext.install(domain="hello", localedir="locales")
 
-print(_("Hello World"))
+def hello():
+    print(_("Hello World"))
+
+if __name__ == "__main__":
+    hello()
