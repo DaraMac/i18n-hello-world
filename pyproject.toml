@@ -22,4 +22,4 @@ license-files = ["LICENSE"]
 "Source" = "https://github.com/DaraMac/i18n-hello-world.git"
 
 [project.scripts]
-hello = "i18n-hello-world.hello:hello"
+hello = "i18n_hello_world.hello:hello"
