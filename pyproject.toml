@@ -3,15 +3,20 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "hello"
+name = "translation_hello_world"
 version = "0.0.1"
-description = "Translation hello world"
+authors = [
+    { name="Dara MacConville", email="DaraMac@users.noreply.github.com"}
+]
+description = "A Hello World program with localisation"
 readme = "README.md"
 requires-python = ">=3.15"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
+license = "MIT"
+license-files = ["LICENSE"]
 
 [project.urls]
 "Source Code" = "https://github.com/DaraMac/translation-test"
