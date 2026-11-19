@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "hello"
 version = "0.0.1"
-description = "Hello world of translation"
+description = "Translation hello world"
 readme = "README.md"
 requires-python = ">=3.15"
 classifiers = [
