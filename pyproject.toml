@@ -19,7 +19,7 @@ license = "MIT"
 license-files = ["LICENSE"]
 
 [project.urls]
-"Source" = "https://github.com/DaraMac/translation-test"
+"Source" = "https://github.com/DaraMac/i18n-hello-world.git"
 
 [project.scripts]
-hello = "hello.hello:hello"
+hello = "i18n-hello-world.hello:hello"
