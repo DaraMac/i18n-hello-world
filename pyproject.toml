@@ -3,12 +3,12 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "translation_hello_world"
+name = "i18n-hello-world"
 version = "0.0.1"
 authors = [
-    { name="Dara MacConville", email="DaraMac@users.noreply.github.com"}
+    { name="Dara MacConville", email="DaraMac@users.noreply.github.com" },
 ]
-description = "A Hello World program with localisation"
+description = "A Hello World program with internationalisation"
 readme = "README.md"
 requires-python = ">=3.15"
 classifiers = [
@@ -19,7 +19,7 @@ license = "MIT"
 license-files = ["LICENSE"]
 
 [project.urls]
-"Source Code" = "https://github.com/DaraMac/translation-test"
+"Source" = "https://github.com/DaraMac/translation-test"
 
 [project.scripts]
 hello = "hello.hello:hello"
